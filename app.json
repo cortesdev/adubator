@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "Dub Siren",
+    "slug": "dub-siren",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "backgroundColor": "#000000",
+    "ios": {
+      "supportsTablet": true,
+      "userInterfaceStyle": "dark",
+      "bundleIdentifier": "com.yourusername.dubsiren",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#000000"
+      },
+      "package": "com.yourusername.dubsiren"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "entryPoint": "node_modules/expo/AppEntry.js",
+    "extra": {
+      "eas": {
+        "projectId": "96bcf310-b68e-4a75-a14e-c7f5f47329d5"
+      }
+    }
+  }
+}
