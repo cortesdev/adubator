@@ -9,7 +9,8 @@
     "ios": "export NODE_OPTIONS=--openssl-legacy-provider && expo start --ios",
     "web": "export NODE_OPTIONS=--openssl-legacy-provider && expo start --web",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
-    "type-check": "tsc --noEmit"
+    "type-check": "tsc --noEmit",
+    "vercel-build": "expo export --public --platform web && vercel build"
   },
   "dependencies": {
     "@react-native-community/slider": "5.0.1",
