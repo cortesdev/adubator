@@ -21,7 +21,7 @@
     "ios": {
       "supportsTablet": true,
       "userInterfaceStyle": "dark",
-      "bundleIdentifier": "com.yourusername.dubsiren",
+      "bundleIdentifier": "com.cortesdev.dubsiren",
       "infoPlist": {
         "ITSAppUsesNonExemptEncryption": false
       }
@@ -31,10 +31,15 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#000000"
       },
-      "package": "com.yourusername.dubsiren"
+      "package": "com.cortesdev.dubsiren"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/favicon.png",
+      "name": "Dub Siren",
+      "shortName": "Siren",
+      "themeColor": "#000000",
+      "backgroundColor": "#000000",
+      "display": "standalone"
     },
     "entryPoint": "node_modules/expo/AppEntry.js",
     "extra": {
